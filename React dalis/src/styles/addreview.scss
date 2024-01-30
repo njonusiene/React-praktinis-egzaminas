@@ -1,0 +1,119 @@
+.form-container {
+    gap: 30px;
+    margin: 50px auto;
+    width:80%;
+    padding: 5px;
+    min-height: 70vh;
+    color: $red;
+
+    h1 {
+        font-family: $mainfont;
+        font-size: 2.5em;
+        text-decoration: underline;
+
+        @media (max-width:768px){
+            font-size: 1.5em;
+            margin-top: 20px;
+        }
+    }
+
+    .content-wrapper {
+        display: flex;
+        align-items: center; 
+        gap: 75px;
+      }
+    
+    .flower-image {
+        max-width: 30%; 
+        border-radius: 5px;
+        margin-top: -20px; 
+
+      
+        @media (max-width:768px){
+            display: none;
+        }
+      }
+
+    form {
+        label, input, textarea {
+            display: block;
+            width: 100%;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        input, textarea {
+            padding: 5px;
+            padding-top: 8px;
+            margin-bottom: 10px;
+            font-size: 0.7em;
+            display: flex;
+            outline: none;
+            border:1px solid $green;
+            border-radius: 4px;
+            box-shadow: 0 5px 5px $green;
+        }
+        
+        textarea {
+            min-height: 150px;
+            resize: none;
+            
+            &::placeholder{
+                color: $red;
+            }
+        }
+        
+        input:focus {
+            outline: none !important;
+            border:1px solid $yellow;
+        }
+
+        @media (max-width:768px){
+            width: 80%;
+        }
+    }
+
+    .buttons {
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+      
+               
+        a,
+        button {
+            color: $red;
+            text-decoration: none;
+            border: none;
+            background: $green;
+            margin-left: 20px;
+            padding: 10px 45px;
+            border-radius: 5px;
+            box-shadow: 0 5px 5px $brown;
+            font-family: $mainfont;
+            transition: 0.3s;
+
+            &:hover{
+                background: $yellow;
+                opacity: 0.8;
+                cursor: pointer;
+            }
+        }
+
+        @media (max-width:1410px){
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        @media (max-width:768px){
+          padding: 5px 10px;
+          margin-left: -20px;
+        }
+    }
+
+    @media (max-width:1025px){
+        font-size: 0.9em;
+        gap: 10px;
+        justify-content: space-around;
+    }
+}

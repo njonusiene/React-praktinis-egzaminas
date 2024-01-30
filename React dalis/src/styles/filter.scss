@@ -1,0 +1,62 @@
+.filter-options {
+    display: flex;
+    margin-left: 25px;
+    padding-top: 95px ;
+    font-weight: 700;
+    font-size: 1em;
+    color: $red;
+    align-items: center;
+    justify-content: center;
+
+    label {
+        padding: 3px;
+    }
+
+    a {
+        color: $red;
+        text-decoration: none;
+        background: $green;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 5px 5px $brown;
+        font-family: $mainfont;
+        transition: 0.3s;
+
+            &:hover{
+                background: $lightgreen;
+                cursor: pointer;
+            }
+    }
+
+    select {
+        margin: 0px 10px;
+        padding-top: 5px;
+        font-family: $font;
+        font-size: 0.8em;
+        color: $red;
+        border: 1px solid $brown;
+        min-width: 120px;
+    }
+
+    @media (max-width:850px) {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-evenly;
+        padding-top: 50px;
+        font-size: 0.7em;
+        width: 320px;
+        margin-left: 10px;          
+     
+        label {
+            padding: 10px;
+        }
+        
+        a {
+            width: 150px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+    }
+  
+}

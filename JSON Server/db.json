@@ -1,0 +1,359 @@
+{
+  "source_comment": "Duomenų bazė sudaryta remiantis šaltiniu: 'https://www.direct2florist.co.uk/local-florists-f90676'/",
+  "bouquet": [
+    {
+      "id": "1",
+      "title": "A New Day",
+      "category": "mix",
+      "price": 36.5,
+      "description": "Flowers to put a smile on their face. Let them know that you're thinking of them with this fun petite collection of flowers and foliage to send same day. Flowers for same day delivery by the local florist.",
+      "image": "https://cdn.direct2florist.com/1601/navigation/same-day-flowers/a-new-day.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Evelyn",
+      "category": "white",
+      "price": 44.5,
+      "description": "A fabulous collection of white and cream flowers make this the perfect gift. Flowers for an anniversary - this stunning flower arrangement will be hand delivered by the local florist.",
+      "image": "https://cdn.direct2florist.com/1601/navigation/same-day-flowers/evelyn.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Hello",
+      "category": "purple",
+      "price": 39.5,
+      "description": "Say hello in style with this fabulous hand-tied. Why not take the opportunity to be spontaneous and surprise them today with a stunning flower delivery by their local florist.",
+      "image": "https://cdn.direct2florist.com/1601/navigation/same-day-flowers/hello.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Mamma Mia",
+      "category": "mix",
+      "price": 39.5,
+      "description": "Make their day with this bright and vibrant collection of flowers, beautifully presented in a gift box / bag.",
+      "image": "https://cdn.direct2florist.com/1601/navigation/same-day-flowers/mamma-mia.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Cool Breeze",
+      "category": "purple",
+      "price": 44.5,
+      "description": "This classical stylish collection of flowers, make this hand tied the perfect gift. Flowers professionally arranged and delivered by a local florist.",
+      "image": "https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/1601/navigation/same-day-flowers/cool-breeze.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Ava",
+      "category": "white",
+      "price": 44.5,
+      "description": "A creamy selection of blossoming buds in shades of white",
+      "image": "https://cdn.direct2florist.com/1601/navigation/same-day-flowers/ava.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Lemon & Lime",
+      "category": "yellow",
+      "price": 34.5,
+      "description": "A beautiful collection of flowers simply wrapped and ready to arrange. ",
+      "image": "https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/2022-new-selection-guide/grey%20images/32-lemon-and-lime-grey.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Smooch",
+      "category": "red",
+      "price": 49.5,
+      "description": "Roses and carnations make the perfect couple when combined in this timeless ...",
+      "image": "https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/2022-valentines-day/smooch-1000x1000-grey.jpg"
+    },
+    {
+      "id": "9",
+      "title": "For My Sweetheart",
+      "category": "red",
+      "price": 69.5,
+      "description": "12 luxury red roses and fabulous foliage are all you need to make a grand romantic.",
+      "image": "https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/2022-valentines-day/For-My-Sweetheart-1000x1000-grey.jpg"
+    },
+    {
+      "id": "10",
+      "title": "Love Letter",
+      "category": "red",
+      "price": 36.5,
+      "description": "Fine Print: Every bouquet is hand made and delivered by the local florist. Pictures shown are recent examples of an actual arrangement that were designed by talented florists and later sent out to a customer just like you!",
+      "image": "https://d2fimg.com/flowers-s1581b-0.jpg"
+    },
+    {
+      "id": "11",
+      "title": "Tulip Temptations",
+      "category": "mix",
+      "price": 32.5,
+      "description": "A cheerful tulip posy hand-tied featuring a variety of beautiful colours carefully selected.",
+      "image": "https://d2fimg.com/flowers-s1522b-0.jpg"
+    },
+    {
+      "id": "12",
+      "title": "Secret Whispers",
+      "category": "pink",
+      "price": 46.5,
+      "description": "This luxury arrangement of flowers in a stylish Hat Box will be remembered for a long time!",
+      "image": "https://d2fimg.com/flowers-s1465b-0.jpg"
+    },
+    {
+      "id": "13",
+      "title": "Horizon Sky",
+      "category": "yellow",
+      "price": 44.5,
+      "description": "Autumn hand-tied in the signature colours of the season.",
+      "image": "https://d2fimg.com/flowers-s1031b-0.jpg"
+    },
+    {
+      "id": "14",
+      "title": "Tutti Fruit",
+      "category": "mix",
+      "price": 44.5,
+      "description": "This charming hand-tied floral arrangement looks good enough to eat. A delicious array of colors.",
+      "image": "https://d2fimg.com/flowers-s1390b-0.jpg"
+    },
+    {
+      "id": "15",
+      "title": "Olivia With Chocolates",
+      "category": "white",
+      "price": 49.5,
+      "description": "A stunning arrangement of luxurious flowers in a white & cream colourway.",
+      "image": "https://d2fimg.com/90676gb/48116b-0.jpg"
+    },
+    {
+      "id": "aa4c",
+      "title": "Pretty Perfect",
+      "category": "mix",
+      "price": "36",
+      "description": "This warm, subtle coloured collection of beautiful flowers will make anyone’s day.",
+      "image": "https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/2022-products/Pretty-perfect-800--grey.jpg"
+    },
+    {
+      "id": "321a",
+      "title": "A Wrap Of Delight",
+      "category": "pink",
+      "price": "36.5",
+      "description": "This very simple and tasteful collection of Alstroemeria is sure to delight. Color may vary as the florist will choose the best variety available.",
+      "image": "https://b8b5fa10d8773098d0f4-45f610c62feec2d507c92206932c66e3.ssl.cf3.rackcdn.com/2021-little-something-range/A-Little-Wrap-of-Delight-800x800-grey.jpg"
+    }
+  ],
+  "reviews": [
+    {
+      "id": "2",
+      "name": "Bob Smith",
+      "rating": 3,
+      "title": "Average Arrangement",
+      "comment": "The bouquet was okay, but some flowers didn't last very long.",
+      "product_id": 1
+    },
+    {
+      "id": "3",
+      "name": "Charlie Brown",
+      "rating": 5,
+      "title": "Fantastic Service",
+      "comment": "I received the flowers on time, and they were even more beautiful than expected.",
+      "product_id": 1
+    },
+    {
+      "id": "7",
+      "name": "Jane Smith",
+      "rating": 3,
+      "title": "Nice Arrangement",
+      "comment": "The bouquet had a nice mix of colors, but some flowers were a bit wilted.",
+      "product_id": 4
+    },
+    {
+      "id": "111",
+      "name": "Bob Johnson",
+      "rating": 5,
+      "title": "Excellent Service",
+      "comment": "The delivery was quick, and the flowers exceeded my expectations.",
+      "product_id": 2
+    },
+    {
+      "id": "9",
+      "name": "Ivy White",
+      "rating": 3,
+      "title": "Fair Arrangement",
+      "comment": "The bouquet was nice, but I've seen better flower combinations.",
+      "product_id": 4
+    },
+    {
+      "id": "10",
+      "name": "Jack Red",
+      "rating": 5,
+      "title": "Incredible Bouquet",
+      "comment": "I was blown away by the beauty of the flowers. Highly recommended!",
+      "product_id": 4
+    },
+    {
+      "id": "11",
+      "name": "Katie Blue",
+      "rating": 4,
+      "title": "Beautiful Presentation",
+      "comment": "The bouquet was elegantly arranged, and the colors were stunning.",
+      "product_id": 5
+    },
+    {
+      "id": "12",
+      "name": "Leo Yellow",
+      "rating": 3,
+      "title": "Okay Bouquet",
+      "comment": "Not bad, but I expected a bit more creativity in the arrangement.",
+      "product_id": 5
+    },
+    {
+      "id": "13",
+      "name": "Mia Purple",
+      "rating": 5,
+      "title": "Flawless Flowers",
+      "comment": "The flowers were flawless, and the fragrance filled the room. Amazing!",
+      "product_id": 6
+    },
+    {
+      "id": "14",
+      "name": "Noah Orange",
+      "rating": 4,
+      "title": "Satisfying Purchase",
+      "comment": "I was satisfied with my purchase. The bouquet brought joy to the recipient.",
+      "product_id": 6
+    },
+    {
+      "id": "15",
+      "name": "Olivia Pink",
+      "rating": 3,
+      "title": "Average Quality",
+      "comment": "The flowers were average, and some wilted sooner than expected.",
+      "product_id": 7
+    },
+    {
+      "id": "16",
+      "name": "Peter Cyan",
+      "rating": 5,
+      "title": "Impressive Bouquet",
+      "comment": "Impressive bouquet with a delightful mix of flowers. Loved it!",
+      "product_id": 8
+    },
+    {
+      "id": "17",
+      "name": "Quinn Silver",
+      "rating": 4,
+      "title": "Good Value",
+      "comment": "Good value for money. The flowers were fresh and well-arranged.",
+      "product_id": 8
+    },
+    {
+      "id": "18",
+      "name": "Ryan Gold",
+      "rating": 3,
+      "title": "Not Bad",
+      "comment": "Not bad, but I've seen better bouquets. Decent overall.",
+      "product_id": 9
+    },
+    {
+      "id": "19",
+      "name": "Samantha Bronze",
+      "rating": 5,
+      "title": "Exceptional Service",
+      "comment": "Exceptional service and an outstanding bouquet. Will order again!",
+      "product_id": 9
+    },
+    {
+      "id": "20",
+      "name": "Tom Platinum",
+      "rating": 4,
+      "title": "Pleasant Surprise",
+      "comment": "The bouquet was a pleasant surprise, and the recipient loved it.",
+      "product_id": 10
+    },
+    {
+      "id": "21",
+      "name": "Alice Johnson",
+      "rating": 4,
+      "title": "Wonderful Bouquet",
+      "comment": "The flowers were fresh and vibrant. I was really pleased with my purchase!",
+      "product_id": 10
+    },
+    {
+      "id": "22",
+      "name": "Bob Smith",
+      "rating": 3,
+      "title": "Average Arrangement",
+      "comment": "The bouquet was okay, but some flowers didn't last very long.",
+      "product_id": 10
+    },
+    {
+      "id": "23",
+      "name": "Charlie Brown",
+      "rating": 5,
+      "title": "Fantastic Service",
+      "comment": "I received the flowers on time, and they were even more beautiful than expected.",
+      "product_id": 11
+    },
+    {
+      "id": "24",
+      "name": "David White",
+      "rating": 2,
+      "title": "Disappointing Bouquet",
+      "comment": "I was not satisfied with the quality of the flowers. Some were wilted upon arrival.",
+      "product_id": 12
+    },
+    {
+      "id": "25",
+      "name": "Eva Green",
+      "rating": 4,
+      "title": "Lovely Flowers",
+      "comment": "The bouquet had a lovely mix of colors and fragrances. Very pleased!",
+      "product_id": 12
+    },
+    {
+      "id": "26",
+      "name": "Frank Black",
+      "rating": 3,
+      "title": "Decent Bouquet",
+      "comment": "The flowers were okay, but I expected a bit more variety.",
+      "product_id": 13
+    },
+    {
+      "id": "27",
+      "name": "Grace Brown",
+      "rating": 5,
+      "title": "Exquisite Bouquet",
+      "comment": "Absolutely stunning! The bouquet exceeded my expectations.",
+      "product_id": 14
+    },
+    {
+      "id": "8",
+      "name": "Harry Green",
+      "rating": 4,
+      "title": "Great Service",
+      "comment": "The delivery was prompt, and the flowers were in perfect condition.",
+      "product_id": 14
+    },
+    {
+      "id": "076a",
+      "name": "Rami Malek",
+      "rating": "1",
+      "title": "Old flower",
+      "comment": "It was old and not nice, very disapointed.",
+      "product_id": "15"
+    },
+    {
+      "id": "7842",
+      "name": "Niki Minaj",
+      "rating": "3",
+      "title": "Beatiful",
+      "comment": "Nice color, but leak of smell.",
+      "product_id": "1"
+    },
+    {
+      "id": "721a",
+      "name": "Richard Geer",
+      "rating": "4",
+      "title": "Nice flowers",
+      "comment": "Thank You for a lovely flower bouquets, my wife was very happy.",
+      "product_id": "3"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+$duration: 1000ms;
+$factor: -1;
+$delay: $duration / 8 * $factor;
+*,
+*:before,
+*:after {
+ box-sizing: border-box;
+}
+
+.loader {
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ height: 100vh;
+ perspective: 50px;
+}
+
+.inner,
+.flower {
+ width: 50px;
+ height: 50px;
+}
+
+.petal {
+ position: absolute;
+ background-color: rgba(#f00, .5);
+ border-radius: 33% 33% 50% 50%;
+ transform-origin: 5px 25px;
+ box-shadow: 0 0 1px 4px rgba(#000, 0.05);
+ @for $i from 2 through 8 {
+  &:nth-of-type(#{$i}) {
+   transform: rotateZ(-45deg * ($i - 1));
+  }
+ }
+}
+
+.flower {
+ position: relative;
+ transform: rotate3d(.8, 1, 0, 20deg);
+ & > .petal {
+  top: 0;
+  left: 20px;
+  width: 10px;
+  height: 20px;
+  animation: pulse $duration infinite;
+  @for $i from 1 through 8 {
+   &:nth-of-type(#{$i}) {
+    animation-delay: $delay * ($i - 1);
+   }
+  }
+ }
+}
+
+.inner {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 50px;
+ height: 50px;
+ transform-origin: 25px 25px;
+ transform: rotateZ(22.5deg);
+ & > .petal {
+  top: 2px;
+  left: 22px;
+  width: 8px;
+  height: 16px;
+  transform-origin: 4px 22px;
+  border: 1px solid rgba(#f00, .2);
+  background-color: rgba(#fff, 0.5);
+ }
+}
+
+@keyframes pulse {
+ 0% {
+  opacity: 1
+ }
+ 10% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: .4;
+ }
+}

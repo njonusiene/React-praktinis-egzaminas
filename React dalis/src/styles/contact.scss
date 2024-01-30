@@ -1,0 +1,135 @@
+.contactpage {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    min-height: 90vh;
+    padding-left: 145px;
+    padding-top: 80px;
+}
+
+.photo img {
+    margin-top: 10px;
+    max-height: 570px;
+    opacity: 0.8;
+    box-shadow: 0 5px 5px $green;
+}
+
+article {
+    padding: 10px 40px;
+    width: 80%;
+    font-family: $mainfont;
+    color: $red;
+    font-size: 1.2em;
+
+    hr {
+        border-color: $red;
+        box-shadow: 0 5px 5px $green;
+    }
+}
+
+.split {
+    display: flex;
+    flex-direction: column;
+}
+
+.contacts {
+    padding: 5px 40px;
+    display: flex;
+    flex-direction: column;
+
+    h2 {
+        font-size: 1em;
+    }
+ 
+
+    h2, li {
+        box-shadow: inset 0 0 0 0 $green;
+        color: $red;
+        list-style: none;
+        margin: 0 -.35rem;
+        padding: 0 .35rem;
+        transition: color .4s ease-in-out, box-shadow .3s ease-in-out;
+
+        &:hover {
+            box-shadow: inset 260px 0 0 0 $lightgreen;
+            color: rgb(73, 72, 72);
+        }
+    }
+}
+
+i {
+    font-size: 1em;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+input {
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px gray;
+    color: $red;
+    border: 1px solid $brown;
+    font-family: $font;
+    font-size: 1em;
+    cursor: auto;
+    transition: 0.5s;
+
+    &::placeholder {
+        color: $red;
+    }
+
+    &:hover {
+        background: $green;
+    }
+}
+
+.social {
+    color: $red;
+    font-size: 1em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-weight: 700;
+
+    a {
+        color: $red;
+        font-size: 2em;
+        padding-right: 25px;
+        
+        &:hover {
+            color: $green;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .contactpage {
+        flex-direction: column;
+        padding-left: 5px;
+        align-items: center;
+    }
+
+    article {
+        display: none;
+    }
+
+    .contacts {
+        padding: 10px 15px;
+    }
+
+    .photo img {
+        margin-top: 10px;
+        height: 445px;
+    }
+}
+
+@media (max-width: 320px) {
+    input {
+        font-size: 0.8em;
+    }
+
+    .photo img {
+        height: 425px;
+    }
+}

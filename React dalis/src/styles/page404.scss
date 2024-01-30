@@ -1,0 +1,51 @@
+.page404{
+    display: flex;
+    flex-direction: column;
+    margin: 55px;
+    align-items: center;
+    justify-content: center;
+    color: $red;
+
+    img {
+        box-shadow: 0 5px 5px $green;
+        border-radius: 4px;
+        opacity: 0.8;
+    }
+
+    h1 {
+        font-family: $mainfont;
+    }
+
+    a {
+        color: $red;
+        text-decoration: none;
+        background: $green;
+        padding: 10px 45px;
+        border-radius: 5px;
+        box-shadow: 0 5px 5px $brown;
+        font-family: $mainfont;
+        transition: 0.3s;
+
+        &:hover{
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+
+    @media (max-width: 768px){
+        margin-top: 35px;
+
+        img {
+            width: 60%;
+        }
+
+    @media (max-width: 320px){
+        img {
+            width: 80%;
+        }
+        h1 {
+            font-size: 1em;
+        }
+        }
+    }
+}

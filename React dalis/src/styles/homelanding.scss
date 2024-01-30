@@ -1,0 +1,200 @@
+#scroll-animate {
+    overflow: hidden;
+  }
+  
+  #scroll-animate-main {
+    width: 100%;
+    left: 0;
+    position: fixed;
+  }
+  
+  header {
+    margin-top: 87px;
+    width: 100%;
+    height: 100%;
+    background: url(https://images.unsplash.com/photo-1542617827-59ab88ecee35?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat 50% 50%;
+    top: 0;
+    position: fixed;
+    z-index: -1;
+  
+    @media (max-width: 768px){
+      margin-top: 60px;
+    }
+  
+    h1 {
+      width: 100%;
+      height: 100%;
+      margin-left: 155px;
+      text-align: center;
+      font-family: $mainfont;
+      color: $red;
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 3.3em;
+  
+      @media (max-width: 1250px){
+        font-size: 3em;
+      }
+  
+      @media (max-width: 768px) {
+        font-size: 2em;
+        margin-left: 25px;
+      }
+  
+      @media (max-width: 320px) {
+        font-size: 0.9em;
+        margin-left: 10px;
+      }
+    }
+  }
+  
+  .content {
+    min-height: 100vh;
+    background: $yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    padding: 20px;
+  
+    .cards-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 50px;
+      width: 100%;
+  
+      .card {
+        box-shadow: 0 5px 5px $green;
+        background: white;
+        padding: 10px;
+        padding-top: 50px;
+        margin-top: 60px;
+        text-align: center;
+        border-radius: 30px 30px 0 0;
+        width: 25%;
+        line-height: 2em;
+        filter: grayscale(70%);
+        transition: 0.3s;
+  
+        @media (max-width: 920px) {
+          display: block;
+          width: 45%;
+          margin-left: 0
+        }
+  
+        @media (max-width: 320px) {
+          width: 100%;
+          margin-left: 0;
+        }
+  
+        &:hover {
+          filter: grayscale(0%);
+          cursor: pointer;
+        }
+  
+        span {
+          color: $green;
+          font-size: 2em;
+        }
+  
+        p {
+          font-size: 1em;
+  
+          @media (max-width: 768px) {
+            font-size: 0.8em;
+        }
+      }
+  
+        img {
+          height: 200px;
+          border-radius: 30px 30px;
+          box-shadow: 0 5px 5px $green;
+  
+          @media (max-width: 1270px) {
+            height: 100px;
+          }
+          
+          @media (max-width: 920px) {
+            height: 85px;
+          }
+        }
+      }
+    }
+  
+    .sectionbutton {
+      a {
+        color: $red;
+        margin-bottom: 20px;
+        text-decoration: none;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        gap: 10px;
+        background: $green;
+        padding: 10px 35px;
+        border-radius: 5px;
+        box-shadow: 0 5px 5px $brown;
+        font-family: $mainfont;
+        font-size: 1.3em;
+        box-shadow: 0 5px 5px $green;
+        transition: 0.3s;
+  
+        &:hover {
+          background: $lightgreen;
+        }
+  
+        @media (max-width: 768px) {
+          font-size: 1em;
+        }
+      }
+    }
+  }
+  
+  .wrapper-parallax {
+    margin-top: 100%;
+    margin-bottom: 300px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+  }
+  
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 300px;
+    background: $green;
+    bottom: -300px;
+    position: fixed;
+    z-index: -1;
+  
+    .social-footer {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding-top: 30px;
+  
+      p,
+      a {
+        color: $red;
+        font-size: 2em;
+        padding: 20px;
+        transition: 0.3s;
+  
+        &:hover {
+          color: $yellow;
+          cursor: pointer;
+        }
+      }
+    }
+  
+    @media (max-width: 459px) {
+      font-size: 0.81em;
+      .map {
+        display: none;
+      }
+    }
+  }
+  
